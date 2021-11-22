@@ -20,6 +20,7 @@
     margin: 10px;
 }
 .newSheetCard{
+    width: 90%;
     background-color: rgb(61, 61, 59);
 }
 .newSheetCard > ul,li,h1,h2,div{
@@ -32,9 +33,13 @@
     margin-left: 20px;
 }
 .newSheetCard{
-    width: 50%;
+    width: 90%;
     height: 75%;
     margin-top: 10%;
+}
+#payRateInput{
+    align-self: flex-start;
+    width: 40%;
 }
 .entry button{
     margin-left: 20px;
@@ -48,6 +53,7 @@
 }
 .entry{
     display: flex;
+    flex-wrap: wrap;
     width:100%;
     border-bottom: solid grey 1px;
     background-color: rgb(97, 97, 95) ;
