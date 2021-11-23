@@ -22,6 +22,7 @@
 .deleteButton{
     display: inline;
 }
+
 .newSheetCard{
     width: 90%;
     background-color: rgb(61, 61, 59);
@@ -33,7 +34,8 @@
     padding-left: 15px;
 }
 .newSheetCard input{
-    margin-left: 20px;
+    width: 27%;
+    margin-left: 8px;
 }
 .newSheetCard{
     width: 90%;
@@ -45,12 +47,16 @@
     width: 40%;
 }
 .entry button{
-    margin-left: 20px;
+ height: 20%;
+
+}
+.entryContent{
+    width:90%;
 }
 #totalHoursCounter{
     color: white;
 }
-.dayList{
+#entryList{
     width:100%;
     padding-left: 0;
 }
@@ -59,7 +65,11 @@
     flex-wrap: wrap;
     width:95%;
     border-bottom: solid grey 1px;
-    background-color: rgb(97, 97, 95) ;
+    background-color: rgb(97, 97, 95);
+    align-items: center;
+}
+.entryInput{
+    justify-content: space-around;
 }
 #addButton{
     padding-right: 15px;
@@ -69,4 +79,26 @@
 }
 #addButton:hover{
     color:aliceblue
+}
+
+@media only screen and (max-width: 768px){
+    .mainContent{
+        margin: 0;
+        padding: 0;
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+    .newSheetCard{
+        width: 100%;
+    }
+    .entry{
+        width:100%;
+    }
+    .daySelector{
+        width: 19%;
+    }
+
+
 }
